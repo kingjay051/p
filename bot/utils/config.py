@@ -7,7 +7,7 @@ class Config:
     BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "7694374653:AAG4CwdnZ4h6z9CnNe2JQfU58Aea55Bnjkc") #GANTI "7u9jl" DENGAN TOKEN BOT , JANGAN HAPUS TANDA (" ") NYA !!!
     OWNER_ID = int(os.environ.get("OWNER_ID", 6433540918)) #GANTI "1234" DENGAN ID PEMILIK BOT
     MONGODB_URI: str = os.environ.get("MONGODB_URI", "mongodb+srv://jonathanlenathea:memek@kontollllllllll.wcujhle.mongodb.net/?retryWrites=true&w=majority&appName=Kontollllllllll") #GANTI "mongodb://root:passwd@mongo" DENGAN URI MONGO , JANGAN HAPUS TANDA (" ") NYA !!!
-    DATABASE_CHAT_ID = int(os.environ.get("DATABASE_CHAT_ID", -1002630373502)) #GANTI DENGAN DATABASE CHANNEL
+    DATABASE_CHAT_ID = int(os.environ.get("DATABASE_CHAT_ID", -1002278948500)) #GANTI DENGAN DATABASE CHANNEL
 
 
 config: "Config" = Config()
